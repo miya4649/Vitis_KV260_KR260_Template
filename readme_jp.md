@@ -134,9 +134,9 @@ Apply, Runで実行します。
 
 詳しくは以下のサイトを参照してください。
 
-Xilinx (AMD) VitisでVivadoのXSAファイルからアプリケーション・プロジェクトを作成する方法 (Stand alone, Bare metal編)
+Xilinx (AMD) Vitis Unified IDEでVivadoのXSAファイルからアプリケーション・プロジェクトを作成する方法 (Stand alone, Bare metal編)
 
-http://cellspe.matrix.jp/zerofpga/memo00001.html
+http://cellspe.matrix.jp/zerofpga/memo00003.html
 
 ## 補足事項
 

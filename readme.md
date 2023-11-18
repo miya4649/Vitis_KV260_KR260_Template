@@ -136,7 +136,7 @@ For more information, please refer to the following website.
 
 How to create an application project from a Vivado XSA file in Xilinx (AMD) Vitis (Stand alone, bare metal)
 
-http://cellspe.matrix.jp/zerofpga/memo00001.html
+http://cellspe.matrix.jp/zerofpga/memo00003.html
 
 ## Supplemental Information
 
