@@ -110,34 +110,6 @@ Select "(this directory)/vitis_workspace" and OK
 
 "FLOW": "Run" to run it.
 
-### For Vitis Classic IDE
-
-Start the Vitis Classic IDE and start XSCT Console
-
-xsct% pwd
-
-(confirm current directory)
-
-xsct% cd "The path of this directory"
-
-(Go to this directory)
-
-xsct% source vitis.tcl
-
-(Run the Vitis project generation script. The build will also be executed automatically)
-
-Right click on the application project icon and in "Run As",
-
-Select "Single Application Debug", click "New launch configuration",
-
-Open the "Target Setup" tab, turn off "Use FSBL flow for initialization", "Apply", then "Run" to execute.
-
-For more information, please refer to the following website.
-
-How to create an application project from a Vivado XSA file in Xilinx (AMD) Vitis (Stand alone, bare metal)
-
-http://cellspe.matrix.jp/zerofpga/memo00003.html
-
 ## Supplemental Information
 
 ### Updating RTL sub-modules

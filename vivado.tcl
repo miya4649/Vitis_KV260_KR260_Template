@@ -57,8 +57,8 @@ CONFIG.PSU__FPGA_PL1_ENABLE {0} \
 create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0
 
 set_property -dict [list \
-  CONFIG.PRIM_SOURCE {Global_buffer} \
-  CONFIG.RESET_TYPE {ACTIVE_LOW} \
+CONFIG.PRIM_SOURCE {Global_buffer} \
+CONFIG.RESET_TYPE {ACTIVE_LOW} \
 ] [get_bd_cells clk_wiz_0]
 
 create_bd_cell -type module -reference $rtl_top_name $rtl_top_instance

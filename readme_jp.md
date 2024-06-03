@@ -108,36 +108,6 @@ FLOW: Component で Project_1_appを選択、
 
 FLOW: Run で実行します。
 
-### Vitis Classic IDE の場合
-
-Vitis Classic IDEを起動してXSCT Consoleで
-
-xsct% pwd
-
-(カレントディレクトリを確認)
-
-xsct% cd このディレクトリのパス
-
-(このディレクトリに移動)
-
-xsct% source vitis.tcl
-
-(Vitisプロジェクト生成スクリプトを実行。ビルドも自動実行される)
-
-アプリケーションプロジェクトのアイコンを右クリックしてRun Asで
-
-Single Application Debugを選択、New launch configurationをクリックして
-
-Target Setupタブを開きUse FSBL flow for initializationをオフにして
-
-Apply, Runで実行します。
-
-詳しくは以下のサイトを参照してください。
-
-Xilinx (AMD) Vitis Unified IDEでVivadoのXSAファイルからアプリケーション・プロジェクトを作成する方法 (Stand alone, Bare metal編)
-
-http://cellspe.matrix.jp/zerofpga/memo00003.html
-
 ## 補足事項
 
 ### RTLのサブモジュールの更新について
