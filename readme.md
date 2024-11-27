@@ -54,7 +54,7 @@ $ make
 
 Start the Vitis Unified IDE,
 
-"File": "Open Workspace",
+"File": "Set Workspace",
 
 Select the path "(this directory)/vitis_workspace" and OK.
 
@@ -100,7 +100,7 @@ $ vitis -s vitisnew.py
 
 (Run the Vitis project generation script. The build will also be executed automatically)
 
-"File": "Open Workspace"
+"File": "Set Workspace"
 
 Select "(this directory)/vitis_workspace" and OK
 
